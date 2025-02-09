@@ -1,0 +1,4 @@
+netlify.toml[build]
+  base = "VoucherApp"
+  command = "npm run build"
+  publish = "VoucherApp/build"
