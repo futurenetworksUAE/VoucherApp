@@ -1,7 +1,7 @@
 [build]
-  base = "my-app"  # Base directory
+  base = "VoucherApp"  # Base directory
   command = "npm run build"  # Build command
-  publish = "my-app/build"  # Publish directory
+  publish = "VoucherApp/build"  # Publish directory
 
 [[redirects]]
   from = "/*"
