@@ -1,0 +1,11 @@
+{
+    "name": "sameeullah/albayan",
+    "autoload": {
+        "psr-4": {
+            "Sameeullah\\Albayan\\": "src/"
+        }
+    },
+    "require": {
+        "evilfreelancer/routeros-api-php": "^1.5"
+    }
+}
