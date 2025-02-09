@@ -1,4 +1,9 @@
-netlify.toml[build]
-  base = "VoucherApp"
-  command = "npm run build"
-  publish = "VoucherApp/build"
+[build]
+  base = "my-app"  # Base directory
+  command = "npm run build"  # Build command
+  publish = "my-app/build"  # Publish directory
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
